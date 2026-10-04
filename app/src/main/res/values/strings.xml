@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BharatTag</string>
+    <string name="app_subtitle">Smart Bluetooth Item Tracker</string>
+    
+    <!-- Bluetooth status -->
+    <string name="status_bt_unsupported">BLE is not supported on this device</string>
+    <string name="status_bt_disabled">Bluetooth is disabled</string>
+    <string name="status_bt_enabled">Bluetooth is enabled</string>
+    <string name="status_scanning">Scanning for BharatTag…</string>
+    <string name="status_scan_idle">Ready to scan</string>
+    <string name="status_found">BharatTag found</string>
+    <string name="status_connecting">Connecting to BharatTag…</string>
+    <string name="status_discovering">Discovering GATT services…</string>
+    <string name="status_connected">Connected to BharatTag</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_disconnecting">Disconnecting…</string>
+    
+    <!-- Action buttons -->
+    <string name="btn_scan">Scan for BharatTag</string>
+    <string name="btn_stop_scan">Stop Scanning</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_ring">RING</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_enable_bluetooth">Open Bluetooth Settings</string>
+    <string name="btn_grant_permissions">Grant Permissions</string>
+    <string name="btn_clear_log">Clear Log</string>
+
+    <!-- Feedback messages -->
+    <string name="msg_ring_sent">Ring command sent</string>
+    <string name="msg_stop_sent">Stop command sent</string>
+    <string name="msg_write_in_progress">Command already in progress, please wait…</string>
+    <string name="msg_device_not_found">BharatTag not found in range</string>
+    <string name="msg_conn_failed">Connection failed</string>
+    <string name="msg_service_not_found">BharatTag service UUID not found</string>
+    <string name="msg_char_not_found">Command characteristic UUID not found or not writable</string>
+    <string name="msg_write_failed">Failed to write command to BharatTag</string>
+    <string name="msg_device_disconnected">Device disconnected unexpectedly</string>
+    <string name="msg_perm_denied">Bluetooth permissions are required to scan and connect</string>
+    
+    <!-- Permissions explanation -->
+    <string name="perm_dialog_title">Bluetooth Permissions Needed</string>
+    <string name="perm_dialog_desc">BharatTag uses Bluetooth Low Energy (BLE) to detect and communicate with your Arduino tracker tag. Android requires Nearby Devices (or Location on older versions) to discover BLE hardware.</string>
+</resources>
